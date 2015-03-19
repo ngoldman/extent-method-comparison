@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "standard"
+    "test": "standard && node index.js"
   },
   "standard": {
     "ignore": [
