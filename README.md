@@ -17,3 +17,5 @@ Based on these results I did two things:
 
 * created a script to convert output of geojsonExtent to esri format ([bbox2extent](https://github.com/ngoldman/bbox2extent))
 * reimplemented `koop.Extent`as [esri-extent](https://github.com/ngoldman/esri-extent) using some methods I saw in [geojsonExtent](https://github.com/mapbox/geojson-extent) & [extents](https://github.com/substack/node-extents) to improve performance
+
+Check https://travis-ci.org/ngoldman/extent-method-comparison to see the benchmark output for yourself.
